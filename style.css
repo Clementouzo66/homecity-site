@@ -117,6 +117,10 @@ color: bisque;
     .services{
         flex-wrap: wrap;
     }
+     .about{
+        display:flex;
+        flexw-rap:wrap;
+    }
 }
 .services img{
     align-content: center;
@@ -163,10 +167,7 @@ color: bisque;
     padding-top: 70px;
 }
 @media(max-width:900px){
-    .about{
-        display:flex;
-        flexw-rap:wrap;
-    }
+   
 }
 .project{
     display: flex;
@@ -253,6 +254,7 @@ footer{
         cursor: pointer;
         margin-top: 10px;
     }
+    
     .menu {
         flex-direction: column;
         position: absolute;
