@@ -165,9 +165,7 @@ color: bisque;
 @media(max-width:900px){
    .about{
         display:block;
-        flexw-rap:wrap;
         padding:0;
-         margine:0;
 }
 .project{
     display: flex;
