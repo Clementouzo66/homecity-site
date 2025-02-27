@@ -126,6 +126,7 @@ color: bisque;
     }
     .home{
         display: block;
+        flex-wrap: wrap;
     }
 }
 .services img{
