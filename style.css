@@ -120,6 +120,10 @@ color: bisque;
     .about{
         flex-wrap: wrap;
     }
+    .about p3{
+        text-align: left;
+        word-spacing: 0px;
+    }
 }
 .services img{
     align-content: center;
