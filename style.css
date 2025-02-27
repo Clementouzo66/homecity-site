@@ -113,8 +113,11 @@ color: bisque;
     margin: 20px;
     
 }
-@media (max-width:900px){
+@media (max-width:789px){
     .services{
+        flex-wrap: wrap;
+    }
+    .about{
         flex-wrap: wrap;
     }
 }
@@ -124,12 +127,21 @@ color: bisque;
     height: 250px;
     border-radius: 20px;
 }
+    .project{
+        display: flexbox;
+        position: relative;
+        text-align: center;
+        align-content: center;
+        padding:10px;
+        padding-top:40px;
+}
 .about{
     display: flex;
     position: relative;
     border-radius: 5px;
     background-color: rgb(40, 40, 110);
     justify-content: flex-end;
+    padding :10px;
     margin: 20px;
     text-align: center;
     justify-content: space-evenly;
@@ -150,13 +162,8 @@ color: bisque;
     letter-spacing: 0.2px;
     text-align: justify;
     position: relative;
-   
+    padding: 20px;
     padding-top: 70px;
-}
-@media(max-width:900px){
-   .about{
-        display:block;
-        padding:0;
 }
 .project{
     display: flex;
@@ -243,7 +250,6 @@ footer{
         cursor: pointer;
         margin-top: 10px;
     }
-    
     .menu {
         flex-direction: column;
         position: absolute;
