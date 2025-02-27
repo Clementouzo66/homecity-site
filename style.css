@@ -118,7 +118,7 @@ color: bisque;
         flex-wrap: wrap;
     }
      .about{
-        display:flex;
+        display:block;
         flexw-rap:wrap;
         padding:0;
          margine:0;
