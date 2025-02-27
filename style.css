@@ -124,6 +124,9 @@ color: bisque;
         text-align: left;
         word-spacing: 0px;
     }
+    .home{
+        display: block;
+    }
 }
 .services img{
     align-content: center;
