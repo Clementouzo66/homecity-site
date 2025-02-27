@@ -124,21 +124,12 @@ color: bisque;
     height: 250px;
     border-radius: 20px;
 }
-    .project{
-        display: flexbox;
-        position: relative;
-        text-align: center;
-        align-content: center;
-        padding:10px;
-        padding-top:40px;
-}
 .about{
     display: flex;
     position: relative;
     border-radius: 5px;
     background-color: rgb(40, 40, 110);
     justify-content: flex-end;
-    
     margin: 20px;
     text-align: center;
     justify-content: space-evenly;
