@@ -24,8 +24,9 @@ p{
     text-align: center;
     position: relative;
     color: bisque;
-    border-radius: 40px;
+    border-radius: 10px;
     padding: 10px;
+    cursor: pointer;
 }
 .menu :hover{
     color: brown;
@@ -113,7 +114,7 @@ color: bisque;
     margin: 20px;
     
 }
-@media (max-width:789px){
+@media (max-width:900px){
     .services{
         flex-wrap: wrap;
     }
@@ -125,7 +126,6 @@ color: bisque;
         word-spacing: 0px;
     }
     .home{
-        display: block;
         flex-wrap: wrap;
     }
 }
@@ -261,23 +261,26 @@ footer{
     .menu {
         flex-direction: column;
         position: absolute;
-        top: 64px;
+        top: 50px;
         left: -200%;
-        width: 50%;
-        height: 40vh;
-        transition: 0.5s;
+        width: 30%;
+        height: 50vh;
+        transition: 0.4s;
         background-color: rgba(10, 9, 41, 0.849);
         float: left;
         text-align: center;
+        color: bisque;
      }
-    .menu li{
-        margin: 5px;
+    .menu li {
+        margin-top: 40px;
+        margin-bottom: 30px;
         display: inline;
         text-align: center;
-        line-height: 20px;
+        line-height: 0px;
         float: left;
+        align-content: space-evenly;
     }
-        .menu.active{
+        .menu.active {
             left: 0;
         }
     }
