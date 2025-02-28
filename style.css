@@ -2,7 +2,294 @@
 body{
     margin: 10px;
     text-align: center;
+    padding-lef
+body{
+    margin: 10px;
+    text-align: center;
     padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    font-family:  serif;
+    font-size: 20px;
+    background-color: white;
+    color: #03221d;
+}
+p{
+    font-size: 14px;
+    color: rgb(19, 19, 56);
+    text-align: justify;
+    padding: 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: bisque;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.menu :hover{
+    color: brown;
+}
+.logo{
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: bisque;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+p1{
+    font-size: 20px;
+    color: bisque;
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+.home{
+    display: block;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(files/image\ 2.jpeg);
+    border-radius: 10px;
+    padding: 0px;
+    padding-top:70px;
+    padding-bottom: 10px;
+    margin:10px;
+    color: rgba(10, 9, 41, 0.849);
+}
+.home :hover{
+    color: brown;
+}
+marquee{
+    color: rgb(30, 204, 210);
+    margin-top: -40px;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 30px;
+    color: rgba(10, 9, 41, 0.849);
+    padding: 10px;
+    padding-top: 40px;
+    margin: 0px; 
+}
+nav{
+    display: flex;
+    border-radius: 0px;
+    background-color: rgba(10, 9, 41, 0.849);
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 10px;
+}
+nav ul li{
+    display: inline-flex;
+    gap: 70px;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 10px;
+    padding-top: 0px;
+color: bisque;
+}
+.services{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-top: 60px;
+    align-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    
+}
+@media (max-width:900px){
+    .services{
+        flex-wrap: wrap;
+    }
+    .about{
+        flex-wrap: wrap;
+    }
+    .about p3{
+        text-align: left;
+        word-spacing: 0px;
+    }
+    .home{
+        flex-wrap: wrap;
+    }
+}
+.services img{
+    align-content: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+    .project{
+        display: flexbox;
+        position: relative;
+        text-align: center;
+        align-content: center;
+        padding:10px;
+        padding-top:40px;
+}
+.about{
+    display: flex;
+    position: relative;
+    border-radius: 5px;
+    background-color: rgb(40, 40, 110);
+    justify-content: flex-end;
+    padding :10px;
+    margin: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+    word-spacing: 5px;
+}
+.about img{
+    width: 200px;
+    height: 150px;
+    border-radius: 40px;
+    margin: 10px;
+    margin-top: 70px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+.about p3{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.2px;
+    text-align: justify;
+    position: relative;
+    padding: 20px;
+    padding-top: 70px;
+}
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    align-content: center;
+    align-items: center;
+}
+.project img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+p4{
+    display: block;
+    text-align: center;
+    font-size: large;
+    color: rgb(19, 19, 56);
+}
+.contacts{
+    display: ruby;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 30;
+    list-style-type: none;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(19, 19, 56);
+    padding: 0px;
+    padding-top: 40px;
+}
+h4{
+    display: block;
+    color: rgb(216, 170, 113);
+    font-size: 30px;
+    margin-top: -20px;
+}
+p7{
+    display: block;
+    text-align: center;
+    font-size: medium;
+    color: rgb(19, 19, 56);
+    justify-content: space-between;
+    padding-top: 40px;
+}
+p8{
+    display: block;
+    text-align: center;
+    justify-content: flex-start;
+    margin-top: -5px;
+    margin-bottom: 45px;
+    font-size: medium;
+    color: rgb(19, 19, 56);
+    padding-top: 20px;
+}
+p5{
+    display: block;
+    text-align: center;
+    font-size: medium;
+    color: rgb(221, 221, 230);
+    justify-content: space-between;
+    padding-top: 30px;
+}
+footer{
+    padding-top: 20px;
+    display: block;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(files/image\ 1.jpeg);
+}
+.btn{
+    display: none;
+    color: white;
+}
+@media(max-width:900px){
+    .btn{
+        display: flex;
+        margin-right: 20px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    .menu {
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: -200%;
+        width: 30%;
+        height: 40vh;
+        transition: 0.4s;
+        background-color: rgba(10, 9, 41, 0.849);
+        float: left;
+        text-align: center;
+        color: bisque;
+     }
+    .menu li {
+        margin-top: 10px;
+        margin-bottom: 40px;
+        display: inline;
+        text-align: center;
+        line-height: 0px;
+        float: left;
+        align-content: space-evenly;
+    }
+        .menu.active {
+            left: 0;
+        }
+    }
+
+
     padding-right: 0px;
 body{
     margin: 10px;
