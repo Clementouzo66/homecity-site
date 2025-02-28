@@ -264,7 +264,7 @@ footer{
         top: 50px;
         left: -200%;
         width: 30%;
-        height: 50vh;
+        height: 40vh;
         transition: 0.4s;
         background-color: rgba(10, 9, 41, 0.849);
         float: left;
@@ -272,7 +272,7 @@ footer{
         color: bisque;
      }
     .menu li {
-        margin-top: 40px;
+        margin-top: 20px;
         margin-bottom: 30px;
         display: inline;
         text-align: center;
